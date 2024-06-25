@@ -10,7 +10,7 @@ L = 0.1 # pendulum length (m)
 g = 9.8 # gravitational constant (m/s^2)
 
 # initial angular displacement (rad), initial tangential velocity (m/s)
-theta0, v0 = np.radians(60), 0
+theta0, v0 = np.radians(160), 0
 
 # estimate period using harmonic (small displacement) approximation
 tharm = 2 * np.pi * np.sqrt(L / g)
