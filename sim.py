@@ -5,7 +5,7 @@ import matplotlib.animation as animation
 # time step
 dt = 0.001
 
-m = 0.1 # bob pass (kg)
+m = 0.1 # bob mass (kg)
 L = 0.1 # pendulum length (m)
 g = 9.8 # gravitational constant (m/s^2)
 
