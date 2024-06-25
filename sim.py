@@ -71,8 +71,8 @@ radius = 0.005
 bob = ax.add_patch(plt.Circle(get_coords(theta0), radius, fc='b', zorder=3))
 
 # plot limits
-ax.set_xlim(-L * 1.2, L * 1.2)
-ax.set_ylim(-L * 1.2, L * 1.2)
+ax.set_xlim(-L * 1.5, L * 1.5)
+ax.set_ylim(-L * 1.5, L * 1.5)
 
 def animate(frame):
     x, y = get_coords(theta[frame])
