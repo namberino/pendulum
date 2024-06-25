@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from scipy.special import ellipk
 
 # time step
 dt = 0.001
@@ -51,7 +50,6 @@ k = np.sin(theta0 / 2)
 
 print(f"Calculated period (T): {T}")
 print(f"Estimated harmonic displacement (Tharm): {tharm}")
-print(f"Scipy calculated period (T): {2 * tharm / np.pi * ellipk(k**2)}")
 
 # get (x, y) coordinates of the bob at angular displacement th
 def get_coords(th):
